@@ -6,7 +6,7 @@
 }
 
 .container {
-    padding: 200px 0px;
+    padding: 0px 200px;
 }
 
 .d-g{
@@ -74,3 +74,15 @@ span.color{
     line-height: normal;
 }
 /* default css end  */
+
+/* header css start  */
+header{
+    padding: 25px 0px;
+}
+
+header li.menu-item{
+    list-style: none;
+    margin-left: 50px;
+    cursor: pointer;
+}
+/* header css end */
