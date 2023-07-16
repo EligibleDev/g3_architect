@@ -9,10 +9,6 @@
     padding: 0px 10rem;
 }
 
-.d-g {
-    display: grid;
-}
-
 .d-f {
     display: flex;
     justify-content: space-between;
@@ -39,6 +35,11 @@ span.color {
     color: #FF900E;
 }
 
+.intro-lite{
+    font-weight: 500;
+    color: #727272;
+}
+
 .default-button {
     border-radius: 8px;
     background: #FF900E;
@@ -53,7 +54,6 @@ span.color {
 
 .section-title {
     color: #131313;
-    text-align: center;
     font-size: 2.3rem;
     font-style: normal;
     font-weight: 700;
@@ -62,7 +62,7 @@ span.color {
 
 .paragraph {
     color: #727272;
-    text-align: center;
+    /* text-align: center; */
     font-size: 0.85rem;
     font-style: normal;
     font-weight: 400;
@@ -70,7 +70,7 @@ span.color {
 
 .txt {
     color: #424242;
-    text-align: center;
+    /* text-align: center; */
     font-size: 0.9rem;
     font-style: normal;
     font-weight: 500;
@@ -84,11 +84,14 @@ span.color {
     line-height: normal;
 }
 
+section{
+    padding: 3.5rem 0rem;
+}
 /* default css end  */
 
 /* header css start  */
 header {
-    padding: 35px 0px;
+    padding: 2rem 0rem;
 }
 
 header ul.menu {
@@ -107,6 +110,10 @@ header li.menu-item {
 /* header css end */
 
 /* banner css start  */
+.banner-section{
+    padding-bottom: 2rem;
+}
+
 .banner-title {
     color: #131313;
     font-size: 3.1rem;
@@ -130,5 +137,30 @@ header li.menu-item {
 .banner-section img {
     width: 100%;
 }
-
 /* banner css end  */
+
+/* intro css start  */
+.intro > .container{
+    padding: 0rem 13rem;   
+}
+
+.intro-left{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    width: 53%;
+}
+
+.intro-left img{
+    width: 100%;
+}
+
+.intro-right{
+    width: 41%;
+    text-align: left;
+}
+
+.intro-right > .paragraph{
+    padding: 2rem 0rem;
+}
+/* intro css end  */
