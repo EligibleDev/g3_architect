@@ -110,18 +110,25 @@ header li.menu-item {
 .banner-title {
     color: #131313;
     font-size: 3.1rem;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    padding-top: 3rem;
 }
 
-.banner-content{
-    width: 45vw;
+.banner-content {
+    width: 48vw;
     margin: auto;
 }
 
-.banner-section img{
+.banner-content .paragraph{
+    padding: 2rem 0rem;
+}
+
+.banner-content > .default-button{
+    margin-bottom: 3rem;
+}
+
+.banner-section img {
     width: 100%;
 }
-/* banner css end  */
 
+/* banner css end  */
