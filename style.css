@@ -6,10 +6,10 @@
 }
 
 .container {
-    padding: 0px 200px;
+    padding: 0px 10rem;
 }
 
-.d-g{
+.d-g {
     display: grid;
 }
 
@@ -19,7 +19,7 @@
     align-items: center;
 }
 
-.accent-bg{
+.accent-bg {
     background: rgba(255, 144, 14, 0.10);
 }
 
@@ -35,14 +35,26 @@
     text-align: right;
 }
 
-span.color{
+span.color {
     color: #FF900E;
+}
+
+.default-button {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    border: none;
 }
 
 .section-title {
     color: #131313;
     text-align: center;
-    font-size: 45px;
+    font-size: 2.3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -51,74 +63,65 @@ span.color{
 .paragraph {
     color: #727272;
     text-align: center;
-    font-size: 16px;
+    font-size: 0.85rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px;
 }
 
 .txt {
     color: #424242;
     text-align: center;
-    font-size: 18px;
+    font-size: 0.9rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 26px;
 }
 
 .heading {
     color: #131313;
-    font-size: 20px;
+    font-size: 1.15rem;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
+
 /* default css end  */
 
-/* default resposive start */
-@media screen and (max-width:1500px) {
-    .container{
-        padding: 0px 150px;
-    }
-}
-
-@media screen and (max-width:1150px) {
-    .container{
-        padding: 0px 100px;
-    }
-}
-
-@media screen and (max-width:950px) {
-    .container{
-        padding: 0px 50px;
-    }
-
-    .section-title{
-        font-size: 35px;
-    }
-
-    header div.container{
-        flex-direction: column;
-        gap: 25px;
-    }
-}
-/* default resposive end */
-
 /* header css start  */
-header{
-    padding: 25px 0px;
+header {
+    padding: 35px 0px;
 }
 
-header ul.menu{
-    gap: 50px;
+header ul.menu {
+    gap: 3.125rem;
 }
 
-header h2.section-title{
+header h2.section-title {
     cursor: pointer;
 }
 
-header li.menu-item{
+header li.menu-item {
     list-style: none;
     cursor: pointer;
 }
+
 /* header css end */
+
+/* banner css start  */
+.banner-title {
+    color: #131313;
+    font-size: 3.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-content{
+    width: 45vw;
+    margin: auto;
+}
+
+.banner-section img{
+    width: 100%;
+}
+/* banner css end  */
+
