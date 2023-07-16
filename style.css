@@ -60,6 +60,14 @@ span.color {
     line-height: normal;
 }
 
+.logo{
+    color: #131313;
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
 .paragraph {
     color: #727272;
     /* text-align: center; */
