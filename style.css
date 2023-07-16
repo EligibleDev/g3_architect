@@ -74,6 +74,7 @@ span.color {
     font-size: 0.85rem;
     font-style: normal;
     font-weight: 400;
+    line-height: 1.5rem;
 }
 
 .txt {
@@ -172,3 +173,62 @@ header li.menu-item {
     padding: 2rem 0rem;
 }
 /* intro css end  */
+
+/* features css start  */
+.features-left{
+    width: 40%;
+}
+
+.features-left > p {
+    padding: 1rem 0 0.5rem;
+}
+
+.title-holder{
+    border-left: 0.4rem solid #FF900E;
+    padding-left: 1rem;
+}
+
+.feature-box{
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 1rem 0 0;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+
+.feature-box:hover{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.features-right{
+    position: relative;
+    width: 55%;
+    padding-bottom: 50px;
+}
+
+.features-right > img{
+    width: 85%;
+}
+
+.experience{
+    background-color: #FF900E;
+    border-radius: 0.5rem;
+    width: min-content;
+    padding: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.experience > .banner-title{
+    color: #ffffff;
+    padding: 0;
+}
+
+.experience > p {
+    font-size: 1.35rem;
+    color: #fff;
+    font-weight: 400;
+}
+/* features css end  */
